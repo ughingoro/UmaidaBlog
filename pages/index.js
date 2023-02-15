@@ -22,7 +22,7 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>My Name is Umaida Usman Studied in Grade 7 at AKU School, Karachi. This blog is use to educate teenage Students.</p>
+        <p>My Name is Umaida Usman student of Grade 7 at Aga Khan School, Karachi. This blog is use to educate teenage Students.</p>
         <p>
           You will find more educational activities in this blog.
         </p>
