@@ -13,24 +13,12 @@ export default function Post({postData}) {
       </Head>
       <article>
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>
+        <h3>by: {postData.by}</h3>
         <div className={utilStyles.lightText}>
           <Date dateString={postData.date} />
         </div>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
-
-     {/* <Head>
-        <title>{postData.title}</title>
-      </Head>
-
-       <Date dateString = {postData.title} />
-      <br />
-      {postData.id}
-      <br />
-      {postData.date}
-      <br />
-      <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
-    */}
   </Layout> 
   );
 }
